@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source = {:git => "https://github.com/zh20102618/WeiXin.git", :tag => s.version}
   s.source_files = "WeixinSDK/*.{h,m}"
   s.vendored_libraries = "WeixinSDK/*.a"
-  s.libraries = "libz", "libsqlite3.0"
+  s.libraries = "z", "sqlite3.0"
   s.requires_arc = true
   s.frameworks = "SystemConfiguration", "CoreTelephony", "Security" 
 end
