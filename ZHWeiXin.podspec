@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "ZHWeiXin"
-  s.version = "1.7.8"
-  s.summary = "update weixin sdk"
+  s.version = "1.7.9"
+  s.summary = "适配iOS10"
   s.homepage = "https://github.com/zh20102618/WeiXin"
   s.license = "MIT"
   s.platform = :ios
